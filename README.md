@@ -1,0 +1,9 @@
+Download Link: https://assignmentchef.com/product/solved-assignment1-consider-the-megatron-777-disk
+<br>
+1. (4 pt) Consider the Megatron 777 disk with the following characteristics:10 surfaces with 10,000 tracks each; each sector is 512 bytes and each track on average has 1000 sectors; 20% of each track is used for gaps; the disk rotates at 10,000 rounds per minute; the time to move the head k tracks is 1 + 0.001k ms. Answer the following questions about the Megatron 777.(1) Determine the capacity of each cylinder of the disk.(2) If a block were 32 sectors, how long would it take to transfer two consecutive blocks?(3) What is the average time to update two blocks of data on the same track? Assume the read/write head is on this track.(4) Suppose the disk head is at track 2500 that is 1/4 of the way across the tracks. If the next request is for a block on a random track, calculate the average time to read this block.
+
+2. (3 pt) Suppose the relation R described in the slides grows to have as many tuples as can be sorted using 2PMMS on the machine described in the slides as well. Also assume that the disk grows to accommodate R, but all other characteristics of the disk, machine, and relation R remain the same. How long would it take to sort R?
+
+3. (3 pt) Describe the steps taken to recover from the following failures using RAID level 6 scheme with seven disks:a) Disks 1 and 7.b) Disks 1 and 4.c) Disks 3 and 6.
+
+4. (3 pt) Suppose we have eight data disks numbered 1 through 8, and three redundant disks: 9. 10, and 11. Disk 9 is a parity check on disks 1 through 4, and disk 10 is a parity check on disks 5 through 8. If all pairs of disks are equally likely to fail simultaneously, and we want to maximize the probability that we can recover from the simultaneous failure of two disks, then on which disks should disk 11 be a parity check?
